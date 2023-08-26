@@ -2,6 +2,9 @@
 // You should implement your task here.
 
 module.exports = function towelSort (matrix) {
+    if (matrix === []) {
+        return []
+    }
     function min (arr) {
         const mergedArr = arr
         let arrf = mergedArr.length;
